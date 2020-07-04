@@ -1,0 +1,124 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- TemplateBeginEditable name="doctitle" -->
+<title>Untitled Document</title>
+<!-- TemplateEndEditable -->
+<link href="../css/bootstrap-4.3.1.css" rel="stylesheet" type="text/css">
+<link href="../css/main-style.css" rel="stylesheet" type="text/css">
+<link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+<link href="../css/font-awesome.min.css" rel="stylesheet" type="text/css">
+<link href="css/carousel-inner.css" rel="stylesheet" type="text/css">
+<link href="css/jquery.fancybox.css" rel="stylesheet" type="text/css">
+<!-- TemplateParam name="template" type="boolean" value="true" -->
+<!-- TemplateBeginEditable name="head" -->
+<!-- TemplateEndEditable -->
+</head>
+
+<body>
+<header>
+
+<nav class="navbar navbar-expand-lg navbar-light fixed-top">
+<div class="container" id="menu-top">
+<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+<a class="navbar-brand mx-auto d-block d-lg-none" href="../index.html"><img src="images/xe.png" /></a>
+<a class="nav-link t-main-green f-bold" href="#"><i class="fa fa-search fa-lg d-block d-lg-none mr-2"></i></a>
+<a class="nav-link t-main-green f-bold" href="cart.html"><i class="fa fa-cart-plus fa-lg d-block d-lg-none mr-2"></i></a>
+<div class="collapse navbar-collapse" id="collapsibleNavbar">
+  <ul class="navbar-nav mx-auto">
+    <li class="nav-item">
+      <a class="nav-link t-main-green f-bold active" href="../story.html">CÂU CHUYỆN</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link t-main-green f-bold" href="../news.html">BẢNG TIN</a>
+    </li>
+	<li class="nav-item">
+      <a class="nav-link t-main-green f-bold" href="../grocery.html">TẠP HÓA</a>
+    </li>
+	  <a class="navbar-brand mx-5 d-none d-md-block" href="../index.html"><img src="../images/xe.png" /></a>
+	 <li class="nav-item">
+      <a class="nav-link t-main-green f-bold" href="../chain-stores.html">CỬA HÀNG</a>
+    </li>
+	 <li class="nav-item">
+      <a class="nav-link t-main-green f-bold" href="../recruitment.html">TUYỂN DỤNG</a>
+    </li>
+	 <li class="nav-item">
+      <a class="nav-link t-main-green f-bold" href="../contact-us.html">LIÊN HỆ	</a>
+    </li>
+	 <li class="nav-item ml-3 ">
+      <a class="nav-link t-main-green f-bold d-none d-lg-block	" href="#"><i class="fa fa-search fa-lg  my-auto"></i></a>
+    </li>
+	  <li><a class="nav-link t-main-green f-bold d-none d-lg-block" href="cart.html"><i class="fa fa-cart-plus fa-lg  my-auto"></i></a></li>
+	</ul>
+	</div>
+	</div>
+</nav>
+</header>
+<hr>
+<!-- TemplateBeginIf cond="template" --><!-- TemplateBeginEditable name="EditRegion1" -->
+<main></main>
+<!-- TemplateEndEditable --><!-- TemplateEndIf -->
+<footer>
+	<div class="container">
+		<img src="../images/xe.png" class="my-4"/>
+		<div class="row">
+		  <div class="col-6 col-md-3">
+				<span class="f-bold">ABOUT ME</span>
+				<ul class="py-3 px-3">
+					<li><a href="#" class="t-main-green">Về chúng tôi</a></li>
+					<li><a href="#" class="t-main-green">Hạt cà phê “ CỘNG”</a></li>
+					<li><a href="#" class="t-main-green">BLOG</a></li>
+					<li><a href="#" class="t-main-green">Cơ hội nghề nghiệp</a></li>
+					<li><a href="#" class="t-main-green">Cửa hàng</a></li>	
+				</ul>
+			</div>
+		  <div class="col-6 col-md-3">
+				<span class="f-bold">ADDRESS</span>
+				<ul class="py-3 px-3">
+					<li><a href="#" class="t-main-green">62 Tran Quang Khai,</a></li>
+					<li><a href="#" class="t-main-green">Tan Dinh, Quan 1,</a></li>
+					<li><a href="#" class="t-main-green">Ho Chi Minh, Vietnam</a></li>
+					<li><a href="#" class="t-main-green">02871 087 088</a></li>
+					<li><a href="#" class="t-main-green">@CONGCAPHE</a></li>	
+				</ul>
+			</div>
+		  <div class="col-6 col-md-3">
+				<span class="f-bold">DELIVERY</span>
+				<ul class="py-3 px-3">
+					<li><a href="#" class="t-main-green">Shipping method</a></li>
+					<li><a href="#" class="t-main-green">Payment</a></li>
+					<li><a href="#" class="t-main-green">Cash voucher</a></li>
+					<li><a href="#" class="t-main-green">Return</a></li>
+					<li><a href="#" class="t-main-green">Exchange</a></li>	
+				</ul>
+			</div>
+		  <div class="col-6 col-md-3">
+				<i class="fa fa-twitter-square fa-2x bg-color-icon mr-3"></i>
+				<i class="fa fa-facebook-square fa-2x bg-color-icon mr-3"></i>
+				<i class="fa fa-instagram fa-2x bg-color-icon mr-3"></i>
+				<h5 class="bg-color-icon f-bold mt-2 mb-0">LUÔN CẬP NHẬT</h5>
+				<p class="bg-color-icon mb-0">về các tin tức sản phẩm mới</p>
+				<form>
+					<input type="email" placeholder="Nhập email" class="t-email mb-2" />
+					<button class="btn-sub">Đăng ký</button>
+				</form>
+				
+				
+			</div>
+		</div>
+  </div>	
+</footer>
+<script src="../js/jquery-3.3.1.min.js"></script>
+<script src="../js/popper.min.js"></script>
+<script src="../js/bootstrap-4.3.1.js"></script>
+<script src="js/jquery.fancybox.js"></script>
+<script src="js/jquery.fancybox.pack.js"></script>
+<script src="js/custom.js"></script>
+<script src="../js/cart.js"></script>
+</body>
+</html>

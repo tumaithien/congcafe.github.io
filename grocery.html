@@ -1,0 +1,427 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Cộng Cà Phê</title>
+<link href="css/bootstrap-4.3.1.css" rel="stylesheet" type="text/css">
+<link href="css/main-style.css" rel="stylesheet" type="text/css">
+<link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+<link href="css/font-awesome.min.css" rel="stylesheet" type="text/css">
+<link href="css/carousel-inner.css" rel="stylesheet" type="text/css">
+<link href="css/jquery.fancybox.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+<header>
+
+<nav class="navbar navbar-expand-lg navbar-light fixed-top">
+<div class="container" id="menu-top">
+<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+<a class="navbar-brand mx-auto d-block d-lg-none" href="index.html"><img src="images/xe.png" /></a>
+<a class="nav-link t-main-green f-bold btn-search d-block d-lg-none" href="#">
+  <i class="fa fa-search fa-lg  mr-2"></i>
+  <div class="search-item">
+    <input class="form-control" id="myInputa" type="text" placeholder="Search..">
+       <ul class="list-group" id="myLista">
+ 
+  </ul>  
+    </div>
+</a>
+<a class="nav-link t-main-green f-bold" href="cart.html"><i class="fa fa-cart-plus fa-lg d-block d-lg-none mr-2"></i></a>
+<div class="collapse navbar-collapse" id="collapsibleNavbar">
+  <ul class="navbar-nav mx-auto">
+    <li class="nav-item">
+      <a class="nav-link t-main-green f-bold" href="story.html">CÂU CHUYỆN</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link t-main-green f-bold" href="news.html">BẢNG TIN</a>
+    </li>
+	<li class="nav-item">
+      <a class="nav-link t-main-green f-bold active" href="grocery.html">TẠP HÓA</a>
+    </li>
+	  <a class="navbar-brand mx-5 d-none d-md-block" href="index.html"><img src="images/xe.png" /></a>
+	 <li class="nav-item">
+      <a class="nav-link t-main-green f-bold" href="chain-stores.html">CỬA HÀNG</a>
+    </li>
+	 <li class="nav-item">
+      <a class="nav-link t-main-green f-bold" href="recruitment.html">TUYỂN DỤNG</a>
+    </li>
+	 <li class="nav-item">
+      <a class="nav-link t-main-green f-bold" href="contact-us.html">LIÊN HỆ	</a>
+    </li>
+	 <li class="nav-item ml-3 ">
+       <a class="nav-link t-main-green f-bold d-none d-lg-block btn-search" href="#"><i class="fa fa-search fa-lg  my-auto"></i>
+     <div class="search-item">
+    <input class="form-control" id="myInput" type="text" placeholder="Search..">
+       <ul class="list-group" id="myList">
+ 
+         </ul>  
+    </div>
+     </a>
+    </li>
+	  <li><a class="nav-link t-main-green f-bold d-none d-lg-block" href="cart.html"><i class="fa fa-cart-plus fa-lg  my-auto"></i></a></li>
+	</ul>
+	</div>
+	</div>
+</nav>
+</header>
+<hr>
+<main>
+  <section id="grocery">
+    <div class="container">
+		<div class="row mb-5">
+		<div class="col-12 pb-1 t-link">
+					<a href="index.html" class="t-main-green f-bold">Home</a> / <span class="t-main-red f-bold">Menu</span>
+		  </div>
+			</div>
+      <div class="row mb-5">
+		  
+		  <div class="col-12">
+				<h3 class="f-bold">MENU</h3>
+				<hr class="border-red m-0">
+		  </div>
+        <div class="col-md-2 d-none d-md-block">
+          <ul class="nav flex-column">
+            <li class="nav-item"><a href="#all" class="nav-link active" data-toggle="tab">Tất cả</a></li>
+            <li class="nav-item"><a href="#coffe" class="nav-link" data-toggle="tab">Cà phê</a></li>
+            <li class="nav-item"><a href="#tea" class="nav-link" data-toggle="tab">Trà</a></li>
+          </ul>
+        </div>
+        <div class="col-12 col-md-10">
+          <div class="tab-content">
+            <div class="tab-pane active" id="all">
+              <div class="row">
+                <div class="col-6 col-md-4 mt-4">
+                  <div class="img-hover"> <img src="images/suada.jpg" class="pb-4 img-fluid w-100 image" />
+                    <div class="middle"> <a href="#"><i class="fa fa-plus fa-2x addTocart" data-id="1"></i></a> </div>
+                  </div>
+                  <h5 class="f-bold color-main-green pb-4">BẠC SỈU</h5>
+                  <span class="color-price pb-4">29.000 đ</span><br>
+                  <br>
+                  <a href="cart.html" class="buy mr-2 addTocart" data-id="1">MUA NGAY</a> <a href="product-details.html?id=1" class="details">TÌM HIỂU THÊM</a> </div>
+                <div class="col-6 col-md-4 mt-4">
+                  <div class="img-hover"><img src="images/hinhgoc.jpg" class="pb-4 img-fluid w-100 image" />
+                    <div class="middle"> <a href="#"><i class="fa fa-plus fa-2x addTocart" data-id="2"></i></a> </div>
+                  </div>
+                  <h5 class="f-bold color-main-green pb-4">CARAMEL MACCHIATIO</h5>
+                  <span class="color-price pb-4">55.000 đ</span><br>
+                  <br>
+                  <a href="cart.html" class="buy mr-2 addTocart" data-id="2">MUA NGAY</a> <a href="product-details.html?id=2" class="details">TÌM HIỂU THÊM</a> </div>
+                <div class="col-6 col-md-4 mt-4">
+                  <div class="img-hover"><img src="images/denda.jpg" class="pb-4 img-fluid w-100 image" />
+                    <div class="middle"> <a href="#"><i class="fa fa-plus fa-2x addTocart" data-id="8"></i></a> </div>
+                  </div>
+                  <h5 class="f-bold color-main-green pb-4">ĐEN ĐÁ</h5>
+                  <span class="color-price pb-4">29.000 đ</span><br>
+                  <br>
+                  <a href="cart.html" class="buy mr-2 addTocart" data-id="8">MUA NGAY</a> <a href="product-details.html?id=8" class="details">TÌM HIỂU THÊM</a> </div>
+                <div class="col-6 col-md-4 mt-4">
+                  <div class="img-hover"><img src="images/socolada.jpg" class="pb-4 img-fluid w-100 image" />
+                    <div class="middle"> <a href="#"><i class="fa fa-plus fa-2x addTocart" data-id="3"></i></a> </div>
+                  </div>
+                  <h5 class="f-bold color-main-green pb-4">SÔ-CÔ-LA ĐÁ</h5>
+                  <span class="color-price pb-4">29.000 đ</span><br>
+                  <br>
+                  <a href="cart.html" class="buy mr-2 addTocart" data-id="3">MUA NGAY</a> <a href="product-details.html?id=3" class="details">TÌM HIỂU THÊM</a> </div>
+                <div class="col-6 col-md-4 mt-4">
+                  <div class="img-hover"><img src="images/matcha.jpg" class="pb-4 img-fluid w-100 image" />
+                    <div class="middle"> <a href="#"><i class="fa fa-plus fa-2x addTocart" data-id="4"></i></a> </div>
+                  </div>
+                  <h5 class="f-bold color-main-green pb-4">TRÀ MATCHA LATTE</h5>
+                  <span class="color-price pb-4">55.000 đ</span><br>
+                  <br>
+                  <a href="cart.html" class="buy mr-2 addTocart" data-id="4">MUA NGAY</a> <a href="product-details.html?id=4" class="details">TÌM HIỂU THÊM</a> </div>
+                <div class="col-6 col-md-4 mt-4">
+                  <div class="img-hover"><img src="images/travai.jpg" class="pb-4 img-fluid w-100 image" />
+                    <div class="middle"> <a href="#"><i class="fa fa-plus fa-2x addTocart" data-id="5"></i></a> </div>
+                  </div>
+                  <h5 class="f-bold color-main-green pb-4">TRÀ VẢI</h5>
+                  <span class="color-price pb-4">45.000 đ</span><br>
+                  <br>
+                  <a href="cart.html" class="buy mr-2 addTocart" data-id="5">MUA NGAY</a> <a href="product-details.html?id=5" class="details">TÌM HIỂU THÊM</a> </div>
+                <div class="col-6 col-md-4 mt-4 d-none d-md-block">
+                  <div class="img-hover"><img src="images/tragaorang.jpg" class="pb-4 img-fluid w-100 image" />
+                    <div class="middle"> <a href="#"><i class="fa fa-plus fa-2x addTocart" data-id="9"></i></a> </div>
+                  </div>
+                  <h5 class="f-bold color-main-green pb-4">TRÀ GẠO RANG</h5>
+                  <span class="color-price pb-4">48.000 đ</span><br>
+                  <br>
+                  <a href="cart.html" class="buy mr-2 addTocart" data-id="9">MUA NGAY</a> <a href="product-details.html?id=9" class="details">TÌM HIỂU THÊM</a> </div>
+                <div class="col-6 col-md-4 mt-4 d-none d-md-block">
+                  <div class="img-hover"><img src="images/traden.jpg" class="pb-4 img-fluid w-100 image" />
+                    <div class="middle"> <a href="#"><i class="fa fa-plus fa-2x addTocart" data-id="7"></i></a> </div>
+                  </div>
+                  <h5 class="f-bold color-main-green pb-4">TRÀ ĐEN </h5>
+                  <span class="color-price pb-4">39.000 đ</span><br>
+                  <br>
+                  <a href="cart.html" class="buy mr-2 addTocart" data-id="7">MUA NGAY</a> <a href="product-details.html?id=7" class="details">TÌM HIỂU THÊM</a> </div>
+                <div class="col-6 col-md-4 mt-4 d-none d-md-block">
+                  <div class="img-hover"><img src="images/tradao.jpg" class="pb-4 img-fluid w-100 image" />
+                    <div class="middle"> <a href="#"><i class="fa fa-plus fa-2x addTocart" data-id="6"></i></a> </div>
+                  </div>
+                  <h5 class="f-bold color-main-green pb-4">TRÀ ĐÀO</h5>
+                  <span class="color-price pb-4">45.000 đ</span><br>
+                  <br>
+                  <a href="cart.html" class="buy mr-2 addTocart" data-id="6">MUA NGAY</a> <a href="product-details.html?id=6" class="details">TÌM HIỂU THÊM</a> </div>
+              </div>
+            </div>
+            <div class="tab-pane fade" id="coffe">
+				<div class="row">
+					<div class="col-6 col-md-4 mt-4">
+                  <div class="img-hover"> <img src="images/suada.jpg" class="pb-4 img-fluid w-100 image" />
+                    <div class="middle"> <a href="#"><i class="fa fa-plus fa-2x addTocart" data-id="1"></i></a> </div>
+                  </div>
+                  <h5 class="f-bold color-main-green pb-4">BẠC SỈU</h5>
+                  <span class="color-price pb-4">29.000 đ</span><br>
+                  <br>
+                  <a href="cart.html" class="buy mr-2 addTocart" data-id="1">MUA NGAY</a> <a href="product-details.html?id=1" class="details">TÌM HIỂU THÊM</a> </div>
+                <div class="col-6 col-md-4 mt-4">
+                  <div class="img-hover"><img src="images/hinhgoc.jpg" class="pb-4 img-fluid w-100 image" />
+                    <div class="middle"> <a href="#"><i class="fa fa-plus fa-2x addTocart" data-id="2"></i></a> </div>
+                  </div>
+                  <h5 class="f-bold color-main-green pb-4">CARAMEL MACCHIATIO</h5>
+                  <span class="color-price pb-4">55.000 đ</span><br>
+                  <br>
+                  <a href="cart.html" class="buy mr-2 addTocart" data-id="2">MUA NGAY</a> <a href="product-details.html?id=2" class="details">TÌM HIỂU THÊM</a> </div>
+                <div class="col-6 col-md-4 mt-4">
+                  <div class="img-hover"><img src="images/denda.jpg" class="pb-4 img-fluid w-100 image" />
+                    <div class="middle"> <a href="#"><i class="fa fa-plus fa-2x addTocart" data-id="8"></i></a> </div>
+                  </div>
+                  <h5 class="f-bold color-main-green pb-4">ĐEN ĐÁ</h5>
+                  <span class="color-price pb-4">29.000 đ</span><br>
+                  <br>
+                  <a href="cart.html" class="buy mr-2 addTocart" data-id="8">MUA NGAY</a> <a href="product-details.html?id=8" class="details">TÌM HIỂU THÊM</a> </div>
+				</div>  
+			</div>
+            <div class="tab-pane fade" id="tea">
+				<div class="row">
+					<div class="col-6 col-md-4 mt-4">
+                  <div class="img-hover"><img src="images/socolada.jpg" class="pb-4 img-fluid w-100 image" />
+                    <div class="middle"> <a href="#"><i class="fa fa-plus fa-2x addTocart" data-id="3"></i></a> </div>
+                  </div>
+                  <h5 class="f-bold color-main-green pb-4">SÔ-CÔ-LA ĐÁ</h5>
+                  <span class="color-price pb-4">29.000 đ</span><br>
+                  <br>
+                  <a href="cart.html" class="buy mr-2 addTocart" data-id="3">MUA NGAY</a> <a href="product-details.html?id=3" class="details">TÌM HIỂU THÊM</a> </div>
+                <div class="col-6 col-md-4 mt-4">
+                  <div class="img-hover"><img src="images/matcha.jpg" class="pb-4 img-fluid w-100 image" />
+                    <div class="middle"> <a href="#"><i class="fa fa-plus fa-2x addTocart" data-id="4"></i></a> </div>
+                  </div>
+                  <h5 class="f-bold color-main-green pb-4">TRÀ MATCHA LATTE</h5>
+                  <span class="color-price pb-4">55.000 đ</span><br>
+                  <br>
+                  <a href="cart.html" class="buy mr-2 addTocart" data-id="4">MUA NGAY</a> <a href="product-details.html?id=4" class="details">TÌM HIỂU THÊM</a> </div>
+                <div class="col-6 col-md-4 mt-4">
+                  <div class="img-hover"><img src="images/travai.jpg" class="pb-4 img-fluid w-100 image" />
+                    <div class="middle"> <a href="#"><i class="fa fa-plus fa-2x addTocart" data-id="5"></i></a> </div>
+                  </div>
+                  <h5 class="f-bold color-main-green pb-4">TRÀ VẢI</h5>
+                  <span class="color-price pb-4">45.000 đ</span><br>
+                  <br>
+                  <a href="cart.html" class="buy mr-2 addTocart" data-id="5">MUA NGAY</a> <a href="product-details.html?id=5" class="details">TÌM HIỂU THÊM</a> </div>
+                <div class="col-6 col-md-4 mt-4 d-none d-md-block">
+                  <div class="img-hover"><img src="images/tragaorang.jpg" class="pb-4 img-fluid w-100 image" />
+                    <div class="middle"> <a href="#"><i class="fa fa-plus fa-2x addTocart" data-id="9"></i></a> </div>
+                  </div>
+                  <h5 class="f-bold color-main-green pb-4">TRÀ GẠO RANG</h5>
+                  <span class="color-price pb-4">48.000 đ</span><br>
+                  <br>
+                  <a href="cart.html" class="buy mr-2 addTocart" data-id="9">MUA NGAY</a> <a href="product-details.html?id=9" class="details">TÌM HIỂU THÊM</a> </div>
+                <div class="col-6 col-md-4 mt-4 d-none d-md-block">
+                  <div class="img-hover"><img src="images/traden.jpg" class="pb-4 img-fluid w-100 image" />
+                    <div class="middle"> <a href="#"><i class="fa fa-plus fa-2x addTocart" data-id="7"></i></a> </div>
+                  </div>
+                  <h5 class="f-bold color-main-green pb-4">TRÀ ĐEN </h5>
+                  <span class="color-price pb-4">39.000 đ</span><br>
+                  <br>
+                  <a href="cart.html" class="buy mr-2 addTocart" data-id="7">MUA NGAY</a> <a href="product-details.html?id=7" class="details">TÌM HIỂU THÊM</a> </div>
+                <div class="col-6 col-md-4 mt-4 d-none d-md-block">
+                  <div class="img-hover"><img src="images/tradao.jpg" class="pb-4 img-fluid w-100 image" />
+                    <div class="middle"> <a href="#"><i class="fa fa-plus fa-2x addTocart" data-id="6"></i></a> </div>
+                  </div>
+                  <h5 class="f-bold color-main-green pb-4">TRÀ ĐÀO</h5>
+                  <span class="color-price pb-4">45.000 đ</span><br>
+                  <br>
+                  <a href="cart.html" class="buy mr-2 addTocart" data-id="6">MUA NGAY</a> <a href="product-details.html?id=6" class="details">TÌM HIỂU THÊM</a> </div>
+				</div>  
+			</div>
+          </div>
+        </div>
+      </div>
+		<div class="row">
+		<div class="col-12 text-center">
+				<h3 class="f-bold">MÓN NỔI BẬT</h3>
+				<hr class="border-red">
+		</div>
+		</div>
+		<div id="recipeCarousel" class="carousel slide multi-item-carousel w-100 my-5" data-ride="carousel">
+			<div class="row p-0">
+				<div class="col-1">
+					<a class="carousel-control-prev shadow" href="#recipeCarousel" role="button" data-slide="prev">
+						<i class="fa fa-angle-left fa-2x" aria-hidden="true"></i>
+						<span class="sr-only">Previous</span>
+					</a>
+				</div>
+				<div class="col-10 carousel-inner">
+					<div class="row text-center f-bold" role="listbox">
+						
+						<div class="carousel-item active">
+							<div class="col-6 col-md-3">
+							<div class="img-hover">
+								<img class="image img-fluid w-100" src="images/hinhgoc.jpg">
+							<div class="middle">
+							<a href="#"><i class="fa fa-plus fa-2x addTocart" data-id="2"></i></a>
+							</div>
+							</div>
+							
+							<a href="product-details.html?id=2" class="t-main-green f-bold">CARAMEL MACCHIATIO</a>
+							</div>
+						</div>
+						<div class="carousel-item">
+							<div class="col-6 col-md-3">
+							<div class="img-hover">
+								<img class="image img-fluid w-100" src="images/socolada.jpg">
+							<div class="middle">
+							<a href="#"><i class="fa fa-plus fa-2x addTocart" data-id="3"></i></a>
+							</div>
+							</div>
+							
+							<a href="product-details.html?id=3" class="t-main-green f-bold">SÔ-CÔ-LA ĐÁ</a>
+							</div>
+						</div>
+						<div class="carousel-item">
+							<div class="col-6 col-md-3">
+							<div class="img-hover">
+								<img class="image img-fluid w-100" src="images/matcha.jpg">
+							<div class="middle">
+							<a href="#"><i class="fa fa-plus fa-2x addTocart" data-id="4"></i></a>
+							</div>
+							</div>
+							
+							<a href="product-details.html?id=4" class="t-main-green f-bold">TRÀ MATCHA LATTE</a>
+							</div>
+						</div>
+						
+						<div class="carousel-item">
+							<div class="col-6 col-md-3">
+							<div class="img-hover">
+								<img class="image img-fluid w-100" src="images/tragaorang.jpg">
+							<div class="middle">
+							<a href="#"><i class="fa fa-plus fa-2x addTocart" data-id="9"></i></a>
+							</div>
+							</div>
+							
+							<a href="product-details.html?id=9" class="t-main-green f-bold">TRÀ GẠO RANG</a>
+							</div>
+						</div>
+						
+						<div class="carousel-item">
+							<div class="col-6 col-md-3">
+							<div class="img-hover">
+								<img class="image img-fluid w-100" src="images/tradao.jpg">
+							<div class="middle">
+							<a href="#"><i class="fa fa-plus fa-2x addTocart" data-id="6"></i></a>
+							</div>
+							</div>
+							
+							<a href="product-details.html?id=6" class="t-main-green f-bold">TRÀ ĐÀO</a>
+							</div>
+						</div>
+						
+						<div class="carousel-item">
+							<div class="col-6 col-md-3">
+							<div class="img-hover">
+								<img class="image img-fluid w-100" src="images/travai.jpg">
+							<div class="middle">
+							<a href="#"><i class="fa fa-plus fa-2x addTocart" data-id="5"></i></a>
+							</div>
+							</div>
+							
+							<a href="product-details.html?id=5" class="t-main-green f-bold">TRÀ VẢI</a>
+							</div>
+						</div>
+						
+						
+						
+					</div>
+				</div>
+				<div class="col-1">
+					<a class="carousel-control-next shadow" href="#recipeCarousel" role="button" data-slide="next">
+						<i class="fa fa-angle-right fa-2x" aria-hidden="true"></i>
+						<span class="sr-only">Next</span>
+					</a>
+				</div>
+			</div>
+		</div>
+
+	  </div>
+    
+  </section>
+</main>
+<footer>
+	<div class="container">
+    <img src="images/xe.png" class="my-4"/>
+    <div class="row">
+      <div class="col-6 col-md-3">
+        <span class="f-bold">ABOUT ME</span>
+        <ul class="py-3 px-3">
+          <li><a href="story.html" class="t-main-green">Về chúng tôi</a></li>
+          <li><a href="#" class="t-main-green">Hạt cà phê “ CỘNG”</a></li>
+          <li><a href="news.html" class="t-main-green">BLOG</a></li>
+          <li><a href="recruitment.html" class="t-main-green">Cơ hội nghề nghiệp</a></li>
+          <li><a href="grocery.html" class="t-main-green">Cửa hàng</a></li> 
+        </ul>
+      </div>
+      <div class="col-6 col-md-3">
+        <span class="f-bold">ADDRESS</span>
+        <ul class="py-3 px-3">
+          <li><a href="chain-stores.html" class="t-main-green">62 Tran Quang Khai,</a></li>
+          <li><a href="chain-stores.html" class="t-main-green">Tan Dinh, Quan 1,</a></li>
+          <li><a href="chain-stores.html" class="t-main-green">Ho Chi Minh, Vietnam</a></li>
+          <li><a href="chain-stores.html" class="t-main-green">02871 087 088</a></li>
+          <li><a href="chain-stores.html" class="t-main-green">@CONGCAPHE</a></li>  
+        </ul>
+      </div>
+      <div class="col-6 col-md-3">
+        <span class="f-bold">DELIVERY</span>
+        <ul class="py-3 px-3">
+          <li><a href="cart.html" class="t-main-green">Shipping method</a></li>
+          <li><a href="confirm.html" class="t-main-green">Payment</a></li>
+          <li><a href="grocery.html" class="t-main-green">Cash voucher</a></li>
+          <li><a href="confirm.html" class="t-main-green">Return</a></li>
+          <li><a href="confirm.html" class="t-main-green">Exchange</a></li> 
+        </ul>
+      </div>
+      <div class="col-6 col-md-3">
+        <i class="fa fa-twitter-square fa-2x bg-color-icon mr-3"></i>
+        <i class="fa fa-facebook-square fa-2x bg-color-icon mr-3"></i>
+        <i class="fa fa-instagram fa-2x bg-color-icon mr-3"></i>
+        <h5 class="bg-color-icon f-bold mt-2 mb-0">LUÔN CẬP NHẬT</h5>
+        <p class="bg-color-icon mb-0">về các tin tức sản phẩm mới</p>
+        <form>
+          <input type="email" placeholder="Nhập email" class="t-email mb-2" />
+          <button class="btn-sub">Đăng ký</button>
+        </form>
+        
+        
+      </div>
+    </div>
+  </div>
+	<hr class="border-green">
+	<div class="text-center">
+		<p class="t-main-green f-bold">©2017 - 2019 CÔNG TY TNHH Thiện@Stak Mọi quyền được bảo lưu</p>
+	</div>
+</footer>
+<script src="js/jquery-3.3.1.min.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap-4.3.1.js"></script>
+<script src="js/jquery.fancybox.js"></script>
+<script src="js/jquery.fancybox.pack.js"></script>
+<script src="js/custom.js"></script>
+<script src="js/cart.js"></script>
+</body>
+</html>
